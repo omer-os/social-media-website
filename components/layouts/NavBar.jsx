@@ -4,6 +4,7 @@ import OutlinedLink from "../buttons/OutlinedLink";
 import { MdNotificationsNone } from "react-icons/md";
 import OpenSideBarButton from "../buttons/OpenSideBarButton";
 import NavbarAccountDropDown from "../dropdowns/NavbarAccountDropDown";
+import NavBarAccount from "../dropdowns/NavBarAccount";
 
 export default function NavBar() {
   return (
@@ -50,7 +51,7 @@ export default function NavBar() {
 
           <div>
             {/* The Avatar is inside navbar dropdown component */}
-            <NavbarAccountDropDown />
+            <NavBarAccount />
           </div>
         </div>
       </div>
