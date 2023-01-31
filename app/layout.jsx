@@ -1,3 +1,4 @@
+import NavBar from "@/components/layouts/NavBar";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
@@ -8,7 +9,10 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-black text-white">{children}</body>
+      <body className="bg-black text-white">
+        <NavBar />
+        {children}
+      </body>
     </html>
   );
 }
